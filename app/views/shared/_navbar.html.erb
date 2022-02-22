@@ -1,26 +1,26 @@
 
 <nav class="bg-gray-900  ">
-  <div class="flex justify-center min-w-96">
-    <div class=" max-w-7xl min-w-full  ">
-      <div class="flex justify-around items-center ">
-        <div class="flex justify-start items-center ">
+  <div class="sm:flex sm:justify-center sm:min-w-96  place-content-center">
+    <div class=" max-w-7xl min-w-full mx-auto  ">
+      <div class="sm:flex sm:justify-around items-center place-content-center mx-auto">
+        <div class="sm:flex sm:justify-start items-center ">
           <%# logo %>
           <div> <a href="/">
-          <%= image_tag "LOGOpng-removebg-preview.png", alt: "Logo", class: "max-h-12" %>
+          <%= image_tag "LOGOpng-removebg-preview.png", alt: "Logo", class: " max-h-12 mx-auto" %>
           </div>
           </a>
           <%# primary nav %>
-          <div>
-            <a href="/" class="text-white text-xl font-bold mx-3 hover:text-amber-400 hover:font-extrabold  transition-all   ">
+          <div class="text-center ">
+            <a href="/" class="text-white text-xl font-bold sm:mx-3 mx-auto w-full hover:text-amber-400 hover:font-extrabold  transition-all   ">
               About us
             </a>
           </div>
-          <div>
-            <a href="/products" class=" text-white text-xl font-bold mx-3 hover:text-amber-400 hover:font-extrabold  transition-all ">Products</a>
+          <div class="text-center ">
+            <a href="/products" class=" text-white text-xl self-center font-bold mx-3 hover:text-amber-400 hover:font-extrabold  transition-all ">Products</a>
           </div>
         </div>
       <%# secondary nav %>
-        <div>
+        <div class=" text-center pb-2 sm:pb-0  ">
           <a href="/contact" class=" text-white text-xl px-2 py-2 bg-amber-400 rounded-md hover:bg-amber-500 hover:font-extrabold transition-all ">Contact Us</a>
         </div>
       </div>
